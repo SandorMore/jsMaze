@@ -8,6 +8,7 @@
 .tile{
     width: 100%;
     aspect-ratio: 1/1;
+    font-size: 2rem;
 }
 .type-0{
     background-color: burlywood;
