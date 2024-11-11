@@ -13,10 +13,18 @@ const map = [
             ]
 function initMap(){
     map.forEach(line => {
+        let lineElements = []
         line.forEach(tileNumber => {
             let tile = createTile(tileNumber)
+            lineElements.push(tile)
             gamefieldEl.appendChild(tile)
         })
     })
+}
+
+let gameMap = []
+
+function placePlayer(){
+
 }
 initMap()
